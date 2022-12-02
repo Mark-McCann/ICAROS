@@ -1,0 +1,370 @@
+"","EGO_ID","EGO_GENDER","EGO_AGE","EGO_AGE_C","EGO_PHYSICAL_HEALTH","EGO_MENTAL_HEALTH","EGO_AREA_ID","ALTER_ID_0","ALTER_ID_1","OVERLAPPING_ALTER_ID_1","ALTER_ID_2","ALTER_ID_3","ALTER_TYPE","ALTER_TYPE_X","ALTER_TYPE_1","ALTER_TYPE_2","ALTER_TYPE_3","ALTER_TYPE_4","ALTER_ADDICTION_STATUS","TIE_RATING_15","TIE_RATING_01","ALTER_ID_1_DEGREE","ALTER_ID_2_DEGREE","ALTER_ID_3_DEGREE"
+"16","005","F",56,13.4149,2,"2",2,"005_02","005_02","NO","00","005","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,7
+"17","005","F",56,13.4149,2,"2",2,"005_03","005_03","NO","00","005","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",2,0,1,451,7
+"18","005","F",56,13.4149,2,"2",2,"005_16","005_16","NO","00","005","16","Food","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,7
+"19","005","F",56,13.4149,2,"2",2,"005_17","005_17","NO","00","005","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,7
+"20","005","F",56,13.4149,2,"2",2,"005_18","005_18","NO","00","005","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,7
+"21","005","F",56,13.4149,2,"2",2,"005_19","005_19","NO","00","005","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,7
+"22","005","F",56,13.4149,2,"2",2,"005_20","005_20","NO","00","005","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,7
+"23","005","F",56,13.4149,2,"2",2,"005_01-B","01-B","YES","01-B","01-B","01-B","Addiction","Addiction","Addiction","Addiction","Addiction","1",3,1,5,5,5
+"24","005","F",56,13.4149,2,"2",2,"005_21-C","21-C","YES","21-C","21-C","21-C","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","1",4,1,2,2,2
+"39","008","M",53,10.4149,1,"1",2,"008_02","008_02","NO","00","008","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,8
+"40","008","M",53,10.4149,1,"1",2,"008_03","008_03","NO","00","008","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",1,0,1,451,8
+"41","008","M",53,10.4149,1,"1",2,"008_04-A","04-A","YES","04-A","04-A","04-A","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",1,0,9,9,9
+"42","008","M",53,10.4149,1,"1",2,"008_16","008_16","NO","00","008","16","Food","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,8
+"43","008","M",53,10.4149,1,"1",2,"008_18","008_18","NO","00","008","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",1,0,1,451,8
+"44","008","M",53,10.4149,1,"1",2,"008_19","008_19","NO","00","008","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,8
+"45","008","M",53,10.4149,1,"1",2,"008_20","008_20","NO","00","008","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",1,0,1,451,8
+"46","008","M",53,10.4149,1,"1",2,"008_01-B","01-B","YES","01-B","01-B","01-B","Addiction","Addiction","Addiction","Addiction","Addiction","1",3,1,5,5,5
+"47","008","M",53,10.4149,1,"1",2,"008_06-1","008_06-1","NO","00","008","06","Social Work","Social Work","Social Work","Social Work","Social Work","1",3,1,1,451,8
+"48","008","M",53,10.4149,1,"1",2,"008_06-2","008_06-2","NO","00","008","06","Social Work","Social Work","Social Work","Social Work","Social Work","1",2,0,1,451,8
+"64","011","M",54,11.4149,2,"3",2,"011_02","011_02","NO","00","011","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,8
+"65","011","M",54,11.4149,2,"3",2,"011_03","011_03","NO","00","011","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",1,0,1,451,8
+"66","011","M",54,11.4149,2,"3",2,"011_04-A","04-A","YES","04-A","04-A","04-A","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",5,1,9,9,9
+"67","011","M",54,11.4149,2,"3",2,"011_09","011_09","NO","00","011","09","Supplier","Other Services","Supplier","Supplier","Supplier","1",2,0,1,451,8
+"68","011","M",54,11.4149,2,"3",2,"011_16","011_16","NO","00","011","16","Food","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,8
+"69","011","M",54,11.4149,2,"3",2,"011_18","011_18","NO","00","011","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,8
+"70","011","M",54,11.4149,2,"3",2,"011_19","011_19","NO","00","011","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,8
+"71","011","M",54,11.4149,2,"3",2,"011_20","011_20","NO","00","011","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,8
+"72","011","M",54,11.4149,2,"3",2,"011_01-B","01-B","YES","01-B","01-B","01-B","Addiction","Addiction","Addiction","Addiction","Addiction","1",1,0,5,5,5
+"73","011","M",54,11.4149,2,"3",2,"011_06","011_06","NO","00","011","06","Social Work","Social Work","Social Work","Social Work","Social Work","1",3,1,1,451,8
+"92","014","M",45,2.4149,2,"3",2,"014_02","014_02","NO","00","014","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,4
+"93","014","M",45,2.4149,2,"3",2,"014_04-A","04-A","YES","04-A","04-A","04-A","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",3,1,9,9,9
+"94","014","M",45,2.4149,2,"3",2,"014_16","014_16","NO","00","014","16","Food","Other Services","Other Services","Other Services","Other Services","1",1,0,1,451,4
+"95","014","M",45,2.4149,2,"3",2,"014_18","014_18","NO","00","014","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",1,0,1,451,4
+"96","014","M",45,2.4149,2,"3",2,"014_20","014_20","NO","00","014","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,4
+"97","014","M",45,2.4149,2,"3",2,"014_01-B","01-B","YES","01-B","01-B","01-B","Addiction","Addiction","Addiction","Addiction","Addiction","1",4,1,5,5,5
+"105","016","M",29,-13.5851,3,"4",5,"016_02","016_02","NO","00","016","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",5,1,1,451,7
+"106","016","M",29,-13.5851,3,"4",5,"016_04","016_04","NO","00","016","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","2",5,1,1,451,7
+"107","016","M",29,-13.5851,3,"4",5,"016_16","016_16","NO","00","016","16","Food","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,7
+"108","016","M",29,-13.5851,3,"4",5,"016_17","016_17","NO","00","016","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",2,0,1,451,7
+"109","016","M",29,-13.5851,3,"4",5,"016_18","016_18","NO","00","016","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",2,0,1,451,7
+"110","016","M",29,-13.5851,3,"4",5,"016_20","016_20","NO","00","016","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",2,0,1,451,7
+"111","016","M",29,-13.5851,3,"4",5,"016_01","016_01","NO","00","016","01","Addiction","Addiction","Addiction","Addiction","Addiction","2",5,1,1,451,7
+"112","017","M",45,2.4149,4,"2",5,"017_02","017_02","NO","00","017","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,2
+"113","017","M",45,2.4149,4,"2",5,"017_16","017_16","NO","00","017","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,2
+"114","017","M",45,2.4149,4,"2",5,"017_01-E","01-E","YES","01-E","01-E","01-E","Addiction","Addiction","Addiction","Addiction","Addiction","1",2,0,3,3,3
+"115","018","F",25,-17.5851,3,"1",5,"018_16","018_16","NO","00","018","16","Food","Other Services","Other Services","Other Services","Other Services","2",1,0,1,451,3
+"116","018","F",25,-17.5851,3,"1",5,"018_20","018_20","NO","00","018","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,3
+"117","018","F",25,-17.5851,3,"1",5,"018_01","018_01","NO","00","018","01","Addiction","Addiction","Addiction","Addiction","Addiction","2",3,1,1,451,3
+"132","021","F",41,-1.5851,2,"2",5,"021_02","021_02","NO","00","021","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,5
+"133","021","F",41,-1.5851,2,"2",5,"021_03","021_03","NO","00","021","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",5,1,1,451,5
+"134","021","F",41,-1.5851,2,"2",5,"021_16","021_16","NO","00","021","16","Food","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,5
+"135","021","F",41,-1.5851,2,"2",5,"021_19","021_19","NO","00","021","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,5
+"136","021","F",41,-1.5851,2,"2",5,"021_01","021_01","NO","00","021","01","Addiction","Addiction","Addiction","Addiction","Addiction","1",4,1,1,451,5
+"137","022","F",37,-5.5851,5,"3",5,"022_02","022_02","NO","00","022","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,3
+"138","022","F",37,-5.5851,5,"3",5,"022_16","022_16","NO","00","022","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,3
+"139","022","F",37,-5.5851,5,"3",5,"022_20","022_20","NO","00","022","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,3
+"140","022","F",37,-5.5851,5,"3",5,"022_01-E","01-E","YES","01-E","01-E","01-E","Addiction","Addiction","Addiction","Addiction","Addiction","1",5,1,3,3,3
+"141","022","F",37,-5.5851,5,"3",5,"022_21-A","21-A","YES","21-A","21-A","21-A","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","1",5,1,3,3,3
+"142","023","F",35,-7.5851,4,"3",5,"023_16","023_16","NO","00","023","16","Food","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,4
+"143","023","F",35,-7.5851,4,"3",5,"023_18","023_18","NO","00","023","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,4
+"144","023","F",35,-7.5851,4,"3",5,"023_19","023_19","NO","00","023","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,4
+"145","023","F",35,-7.5851,4,"3",5,"023_20","023_20","NO","00","023","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,4
+"146","023","F",35,-7.5851,4,"3",5,"023_01-E","01-E","YES","01-E","01-E","01-E","Addiction","Addiction","Addiction","Addiction","Addiction","1",4,1,3,3,3
+"147","024","F",36,-6.5851,3,"3",3,"024_04","024_04","NO","00","024","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","2",2,0,1,451,5
+"148","024","F",36,-6.5851,3,"3",3,"024_16","024_16","NO","00","024","16","Food","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,5
+"149","024","F",36,-6.5851,3,"3",3,"024_18","024_18","NO","00","024","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",3,1,1,451,5
+"150","024","F",36,-6.5851,3,"3",3,"024_19","024_19","NO","00","024","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",3,1,1,451,5
+"151","024","F",36,-6.5851,3,"3",3,"024_20","024_20","NO","00","024","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,5
+"152","024","F",36,-6.5851,3,"3",3,"024_21-B","21-B","YES","21-B","21-B","21-B","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","2",5,1,7,7,7
+"156","026","M",55,12.4149,3,"3",3,"026_18","026_18","NO","00","026","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",3,1,1,451,3
+"157","026","M",55,12.4149,3,"3",3,"026_19","026_19","NO","00","026","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",3,1,1,451,3
+"158","026","M",55,12.4149,3,"3",3,"026_20","026_20","NO","00","026","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,3
+"159","026","M",55,12.4149,3,"3",3,"026_21-B","21-B","YES","21-B","21-B","21-B","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","2",5,1,7,7,7
+"160","027","M",44,1.4149,3,"3",3,"027_02","027_02","NO","00","027","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",1,0,1,451,6
+"161","027","M",44,1.4149,3,"3",3,"027_16","027_16","NO","00","027","16","Food","Other Services","Other Services","Other Services","Other Services","2",2,0,1,451,6
+"162","027","M",44,1.4149,3,"3",3,"027_18","027_18","NO","00","027","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",5,1,1,451,6
+"163","027","M",44,1.4149,3,"3",3,"027_20","027_20","NO","00","027","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,6
+"164","027","M",44,1.4149,3,"3",3,"027_01-1","027_01-1","NO","00","027","01","Addiction","Addiction","Addiction","Addiction","Addiction","2",5,1,1,451,6
+"165","027","M",44,1.4149,3,"3",3,"027_01-2","027_01-2","NO","00","027","01","Addiction","Addiction","Addiction","Addiction","Addiction","2",5,1,1,451,6
+"166","028","M",49,6.4149,2,"2",3,"028_02","028_02","NO","00","028","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,8
+"167","028","M",49,6.4149,2,"2",3,"028_03","028_03","NO","00","028","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",3,1,1,451,8
+"168","028","M",49,6.4149,2,"2",3,"028_04","028_04","NO","00","028","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",2,0,1,451,8
+"169","028","M",49,6.4149,2,"2",3,"028_16","028_16","NO","00","028","16","Food","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,8
+"170","028","M",49,6.4149,2,"2",3,"028_17","028_17","NO","00","028","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,8
+"171","028","M",49,6.4149,2,"2",3,"028_18","028_18","NO","00","028","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,8
+"172","028","M",49,6.4149,2,"2",3,"028_19","028_19","NO","00","028","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,8
+"173","028","M",49,6.4149,2,"2",3,"028_20","028_20","NO","00","028","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,8
+"174","028","M",49,6.4149,2,"2",3,"028_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",4,1,11,11,11
+"175","028","M",49,6.4149,2,"2",3,"028_21-B","21-B","YES","21-B","21-B","21-B","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","1",5,1,7,7,7
+"176","029","M",46,3.4149,2,"2",3,"029_02","029_02","NO","00","029","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",4,1,1,451,7
+"177","029","M",46,3.4149,2,"2",3,"029_03","029_03","NO","00","029","03","GP Health","Other Services","Other Services","Other Services","GP Health","2",4,1,1,451,7
+"178","029","M",46,3.4149,2,"2",3,"029_05","029_05","NO","00","029","05","IEP","Other Services","Other Services","Other Services","Other Services","2",4,1,1,451,7
+"179","029","M",46,3.4149,2,"2",3,"029_10","029_10","NO","00","029","10","Supplier","Other Services","Supplier","Supplier","Supplier","2",4,1,1,451,7
+"180","029","M",46,3.4149,2,"2",3,"029_16","029_16","NO","00","029","16","Food","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,7
+"181","029","M",46,3.4149,2,"2",3,"029_20","029_20","NO","00","029","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,7
+"182","029","M",46,3.4149,2,"2",3,"029_01","029_01","NO","00","029","01","Addiction","Addiction","Addiction","Addiction","Addiction","2",3,1,1,451,7
+"183","030","M",51,8.4149,4,"4",3,"030_02","030_02","NO","00","030","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,5
+"184","030","M",51,8.4149,4,"4",3,"030_16","030_16","NO","00","030","16","Food","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,5
+"185","030","M",51,8.4149,4,"4",3,"030_18","030_18","NO","00","030","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",4,1,1,451,5
+"186","030","M",51,8.4149,4,"4",3,"030_19","030_19","NO","00","030","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",4,1,1,451,5
+"187","030","M",51,8.4149,4,"4",3,"030_20","030_20","NO","00","030","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",5,1,1,451,5
+"188","030","M",51,8.4149,4,"4",3,"030_21-B","21-B","YES","21-B","21-B","21-B","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","2",5,1,7,7,7
+"196","032","M",39,-3.5851,3,"3",3,"032_02","032_02","NO","00","032","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,2
+"197","032","M",39,-3.5851,3,"3",3,"032_16","032_16","NO","00","032","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,2
+"198","032","M",39,-3.5851,3,"3",3,"032_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",2,0,11,11,11
+"199","033","F",29,-13.5851,3,"3",3,"033_02","033_02","NO","00","033","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,6
+"200","033","F",29,-13.5851,3,"3",3,"033_03","033_03","NO","00","033","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",4,1,1,451,6
+"201","033","F",29,-13.5851,3,"3",3,"033_16","033_16","NO","00","033","16","Food","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,6
+"202","033","F",29,-13.5851,3,"3",3,"033_18","033_18","NO","00","033","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,6
+"203","033","F",29,-13.5851,3,"3",3,"033_19","033_19","NO","00","033","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,6
+"204","033","F",29,-13.5851,3,"3",3,"033_20","033_20","NO","00","033","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,6
+"205","033","F",29,-13.5851,3,"3",3,"033_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",2,0,11,11,11
+"206","034","F",45,2.4149,3,"3",3,"034_04","034_04","NO","00","034","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","2",1,0,1,451,4
+"207","034","F",45,2.4149,3,"3",3,"034_16","034_16","NO","00","034","16","Food","Other Services","Other Services","Other Services","Other Services","2",2,0,1,451,4
+"208","034","F",45,2.4149,3,"3",3,"034_17","034_17","NO","00","034","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",4,1,1,451,4
+"209","034","F",45,2.4149,3,"3",3,"034_18","034_18","NO","00","034","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",2,0,1,451,4
+"210","034","F",45,2.4149,3,"3",3,"034_01-C","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","2",2,0,14,14,14
+"211","035","M",37,-5.5851,3,"3",3,"035_02","035_02","NO","00","035","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,7
+"212","035","M",37,-5.5851,3,"3",3,"035_04","035_04","NO","00","035","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",4,1,1,451,7
+"213","035","M",37,-5.5851,3,"3",3,"035_16","035_16","NO","00","035","16","Food","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,7
+"214","035","M",37,-5.5851,3,"3",3,"035_17","035_17","NO","00","035","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,7
+"215","035","M",37,-5.5851,3,"3",3,"035_18","035_18","NO","00","035","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,7
+"216","035","M",37,-5.5851,3,"3",3,"035_19","035_19","NO","00","035","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,7
+"217","035","M",37,-5.5851,3,"3",3,"035_20","035_20","NO","00","035","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,7
+"218","035","M",37,-5.5851,3,"3",3,"035_01-C","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","1",3,1,14,14,14
+"219","036","M",50,7.4149,3,"4",3,"036_02","036_02","NO","00","036","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,7
+"220","036","M",50,7.4149,3,"4",3,"036_11","036_11","NO","00","036","11","Supplier","Other Services","Supplier","Supplier","Supplier","1",3,1,1,451,7
+"221","036","M",50,7.4149,3,"4",3,"036_16","036_16","NO","00","036","16","Food","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,7
+"222","036","M",50,7.4149,3,"4",3,"036_18","036_18","NO","00","036","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,7
+"223","036","M",50,7.4149,3,"4",3,"036_19","036_19","NO","00","036","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,7
+"224","036","M",50,7.4149,3,"4",3,"036_20","036_20","NO","00","036","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,7
+"225","036","M",50,7.4149,3,"4",3,"036_01","036_01","NO","00","036","01","Addiction","Addiction","Addiction","Addiction","Addiction","1",4,1,1,451,7
+"226","036","M",50,7.4149,3,"4",3,"036_01-C","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","1",4,1,14,14,14
+"227","037","F",47,4.4149,3,"3",3,"037_16","037_16","NO","00","037","16","Food","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,5
+"228","037","F",47,4.4149,3,"3",3,"037_17","037_17","NO","00","037","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,5
+"229","037","F",47,4.4149,3,"3",3,"037_18","037_18","NO","00","037","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,5
+"230","037","F",47,4.4149,3,"3",3,"037_19","037_19","NO","00","037","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,5
+"231","037","F",47,4.4149,3,"3",3,"037_20","037_20","NO","00","037","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,5
+"232","037","F",47,4.4149,3,"3",3,"037_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",2,0,11,11,11
+"233","038","M",44,1.4149,2,"2",3,"038_04","038_04","NO","00","038","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","2",2,0,1,451,2
+"234","038","M",44,1.4149,2,"2",3,"038_16","038_16","NO","00","038","16","Food","Other Services","Other Services","Other Services","Other Services","2",2,0,1,451,2
+"235","038","M",44,1.4149,2,"2",3,"038_01-C","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","2",3,1,14,14,14
+"236","039","M",52,9.4149,3,"3",3,"039_02","039_02","NO","00","039","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,8
+"237","039","M",52,9.4149,3,"3",3,"039_03","039_03","NO","00","039","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",1,0,1,451,8
+"238","039","M",52,9.4149,3,"3",3,"039_09","039_09","NO","00","039","09","Supplier","Other Services","Supplier","Supplier","Supplier","1",4,1,1,451,8
+"239","039","M",52,9.4149,3,"3",3,"039_14","039_14","NO","00","039","14","Supplier","Other Services","Supplier","Supplier","Supplier","1",4,1,1,451,8
+"240","039","M",52,9.4149,3,"3",3,"039_16","039_16","NO","00","039","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,8
+"241","039","M",52,9.4149,3,"3",3,"039_18","039_18","NO","00","039","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,8
+"242","039","M",52,9.4149,3,"3",3,"039_20","039_20","NO","00","039","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,8
+"243","039","M",52,9.4149,3,"3",3,"039_01","039_01","NO","00","039","01","Addiction","Addiction","Addiction","Addiction","Addiction","1",5,1,1,451,8
+"244","039","M",52,9.4149,3,"3",3,"039_01-C","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","1",5,1,14,14,14
+"245","039","M",52,9.4149,3,"3",3,"039_21-B","21-B","YES","21-B","21-B","21-B","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","1",3,1,7,7,7
+"246","040","F",51,8.4149,3,"3",3,"040_02","040_02","NO","00","040","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,7
+"247","040","F",51,8.4149,3,"3",3,"040_04","040_04","NO","00","040","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",3,1,1,451,7
+"248","040","F",51,8.4149,3,"3",3,"040_17","040_17","NO","00","040","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,7
+"249","040","F",51,8.4149,3,"3",3,"040_18","040_18","NO","00","040","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,7
+"250","040","F",51,8.4149,3,"3",3,"040_19","040_19","NO","00","040","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,7
+"251","040","F",51,8.4149,3,"3",3,"040_20","040_20","NO","00","040","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,7
+"252","040","F",51,8.4149,3,"3",3,"040_01-C","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","1",5,1,14,14,14
+"253","040","F",51,8.4149,3,"3",3,"040_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",5,1,11,11,11
+"254","040","F",51,8.4149,3,"3",3,"040_06","040_06","NO","00","040","06","Social Work","Social Work","Social Work","Social Work","Social Work","1",2,0,1,451,7
+"255","041","M",56,13.4149,1,"1",3,"041_02","041_02","NO","00","041","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,6
+"256","041","M",56,13.4149,1,"1",3,"041_16","041_16","NO","00","041","16","Food","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,6
+"257","041","M",56,13.4149,1,"1",3,"041_17","041_17","NO","00","041","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",1,0,1,451,6
+"258","041","M",56,13.4149,1,"1",3,"041_18","041_18","NO","00","041","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",1,0,1,451,6
+"259","041","M",56,13.4149,1,"1",3,"041_19","041_19","NO","00","041","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",1,0,1,451,6
+"260","041","M",56,13.4149,1,"1",3,"041_20","041_20","NO","00","041","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",1,0,1,451,6
+"261","041","M",56,13.4149,1,"1",3,"041_01-C","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","2",1,0,14,14,14
+"262","041","M",56,13.4149,1,"1",3,"041_01-C","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","2",3,1,14,14,14
+"263","042","M",57,14.4149,4,"2",3,"042_16","042_16","NO","00","042","16","Food","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,3
+"264","042","M",57,14.4149,4,"2",3,"042_18","042_18","NO","00","042","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,3
+"265","042","M",57,14.4149,4,"2",3,"042_20","042_20","NO","00","042","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,3
+"266","042","M",57,14.4149,4,"2",3,"042_01-C-1","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","1",5,1,14,14,14
+"267","042","M",57,14.4149,4,"2",3,"042_01-C-2","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","1",5,1,14,14,14
+"268","043","M",44,1.4149,3,"3",1,"043_02","043_02","NO","00","043","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,5
+"269","043","M",44,1.4149,3,"3",1,"043_16","043_16","NO","00","043","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,5
+"270","043","M",44,1.4149,3,"3",1,"043_18","043_18","NO","00","043","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,5
+"271","043","M",44,1.4149,3,"3",1,"043_19","043_19","NO","00","043","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,5
+"272","043","M",44,1.4149,3,"3",1,"043_20","043_20","NO","00","043","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,5
+"273","044","M",44,1.4149,2,"2",1,"044_16","044_16","NO","00","044","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,2
+"274","044","M",44,1.4149,2,"2",1,"044_17","044_17","NO","00","044","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,2
+"275","044","M",44,1.4149,2,"2",1,"044_01-A","01-A","YES","01-A","01-A","01-A","Addiction","Addiction","Addiction","Addiction","Addiction","1",2,0,10,10,10
+"276","045","M",44,1.4149,4,"4",1,"045_01-A","01-A","YES","01-A","01-A","01-A","Addiction","Addiction","Addiction","Addiction","Addiction","1",5,1,10,10,10
+"277","045","M",44,1.4149,4,"4",1,"045_21-E","21-E","YES","21-E","21-E","21-E","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","1",2,0,3,3,3
+"279","047","M",34,-8.5851,2,"2",1,"047_02","047_02","NO","00","047","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,4
+"280","047","M",34,-8.5851,2,"2",1,"047_03","047_03","NO","00","047","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",2,0,1,451,4
+"281","047","M",34,-8.5851,2,"2",1,"047_04","047_04","NO","00","047","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",2,0,1,451,4
+"282","047","M",34,-8.5851,2,"2",1,"047_19","047_19","NO","00","047","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",1,0,1,451,4
+"283","047","M",34,-8.5851,2,"2",1,"047_01-A","01-A","YES","01-A","01-A","01-A","Addiction","Addiction","Addiction","Addiction","Addiction","1",1,0,10,10,10
+"291","049","M",53,10.4149,2,"2",1,"049_03","049_03","NO","00","049","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",1,0,1,451,4
+"292","049","M",53,10.4149,2,"2",1,"049_04","049_04","NO","00","049","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",2,0,1,451,4
+"293","049","M",53,10.4149,2,"2",1,"049_16","049_16","NO","00","049","16","Food","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,4
+"294","049","M",53,10.4149,2,"2",1,"049_20","049_20","NO","00","049","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,4
+"295","049","M",53,10.4149,2,"2",1,"049_01-A","01-A","YES","01-A","01-A","01-A","Addiction","Addiction","Addiction","Addiction","Addiction","1",1,0,10,10,10
+"296","049","M",53,10.4149,2,"2",1,"049_21-E","21-E","YES","21-E","21-E","21-E","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","1",2,0,3,3,3
+"303","051","F",30,-12.5851,3,"2",1,"051_16","051_16","NO","00","051","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,4
+"304","051","F",30,-12.5851,3,"2",1,"051_18","051_18","NO","00","051","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,4
+"305","051","F",30,-12.5851,3,"2",1,"051_19","051_19","NO","00","051","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,4
+"306","051","F",30,-12.5851,3,"2",1,"051_21","051_21","NO","00","051","21","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","1",2,0,1,451,4
+"307","052","F",41,-1.5851,3,"2",1,"052_02","052_02","NO","00","052","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,2
+"308","052","F",41,-1.5851,3,"2",1,"052_05","052_05","NO","00","052","05","IEP","Other Services","Other Services","Other Services","Other Services","1",1,0,1,451,2
+"309","053","F",33,-9.5851,2,"2",5,"053_02","053_02","NO","00","053","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,6
+"310","053","F",33,-9.5851,2,"2",5,"053_03","053_03","NO","00","053","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",4,1,1,451,6
+"311","053","F",33,-9.5851,2,"2",5,"053_16","053_16","NO","00","053","16","Food","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,6
+"312","053","F",33,-9.5851,2,"2",5,"053_18","053_18","NO","00","053","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,6
+"313","053","F",33,-9.5851,2,"2",5,"053_20","053_20","NO","00","053","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,6
+"314","053","F",33,-9.5851,2,"2",5,"053_01","053_01","NO","00","053","01","Addiction","Addiction","Addiction","Addiction","Addiction","1",5,1,1,451,6
+"315","053","F",33,-9.5851,2,"2",5,"053_21-A","21-A","YES","21-A","21-A","21-A","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","1",5,1,3,3,3
+"316","054","M",26,-16.5851,2,"2",5,"054_03","054_03","NO","00","054","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",3,1,1,451,9
+"317","054","M",26,-16.5851,2,"2",5,"054_04","054_04","NO","00","054","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",3,1,1,451,9
+"318","054","M",26,-16.5851,2,"2",5,"054_08","054_08","NO","00","054","08","Supplier","Other Services","Supplier","Supplier","Supplier","1",4,1,1,451,9
+"319","054","M",26,-16.5851,2,"2",5,"054_16","054_16","NO","00","054","16","Food","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,9
+"320","054","M",26,-16.5851,2,"2",5,"054_18","054_18","NO","00","054","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,9
+"321","054","M",26,-16.5851,2,"2",5,"054_19","054_19","NO","00","054","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,9
+"322","054","M",26,-16.5851,2,"2",5,"054_20","054_20","NO","00","054","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,9
+"323","054","M",26,-16.5851,2,"2",5,"054_01","054_01","NO","00","054","01","Addiction","Addiction","Addiction","Addiction","Addiction","1",3,1,1,451,9
+"324","054","M",26,-16.5851,2,"2",5,"054_06","054_06","NO","00","054","06","Social Work","Social Work","Social Work","Social Work","Social Work","1",3,1,1,451,9
+"332","056","M",59,16.4149,1,"2",5,"056_02","056_02","NO","00","056","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,7
+"333","056","M",59,16.4149,1,"2",5,"056_03","056_03","NO","00","056","03","GP Health","Other Services","Other Services","Other Services","GP Health","2",3,1,1,451,7
+"334","056","M",59,16.4149,1,"2",5,"056_08","056_08","NO","00","056","08","Supplier","Other Services","Supplier","Supplier","Supplier","2",2,0,1,451,7
+"335","056","M",59,16.4149,1,"2",5,"056_16","056_16","NO","00","056","16","Food","Other Services","Other Services","Other Services","Other Services","2",1,0,1,451,7
+"336","056","M",59,16.4149,1,"2",5,"056_18","056_18","NO","00","056","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",1,0,1,451,7
+"337","056","M",59,16.4149,1,"2",5,"056_01","056_01","NO","00","056","01","Addiction","Addiction","Addiction","Addiction","Addiction","2",3,1,1,451,7
+"338","056","M",59,16.4149,1,"2",5,"056_21","056_21","NO","00","056","21","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","2",3,1,1,451,7
+"339","057","F",68,25.4149,4,"2",5,"057_03","057_03","NO","00","057","03","GP Health","Other Services","Other Services","Other Services","GP Health","2",2,0,1,451,8
+"340","057","F",68,25.4149,4,"2",5,"057_04","057_04","NO","00","057","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","2",5,1,1,451,8
+"341","057","F",68,25.4149,4,"2",5,"057_08","057_08","NO","00","057","08","Supplier","Other Services","Supplier","Supplier","Supplier","2",4,1,1,451,8
+"342","057","F",68,25.4149,4,"2",5,"057_16","057_16","NO","00","057","16","Food","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,8
+"343","057","F",68,25.4149,4,"2",5,"057_18","057_18","NO","00","057","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",3,1,1,451,8
+"344","057","F",68,25.4149,4,"2",5,"057_19","057_19","NO","00","057","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",3,1,1,451,8
+"345","057","F",68,25.4149,4,"2",5,"057_20","057_20","NO","00","057","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,8
+"346","057","F",68,25.4149,4,"2",5,"057_21","057_21","NO","00","057","21","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","2",4,1,1,451,8
+"347","058","F",33,-9.5851,2,"3",1,"058_02","058_02","NO","00","058","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,7
+"348","058","F",33,-9.5851,2,"3",1,"058_03","058_03","NO","00","058","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",3,1,1,451,7
+"349","058","F",33,-9.5851,2,"3",1,"058_04","058_04","NO","00","058","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",2,0,1,451,7
+"350","058","F",33,-9.5851,2,"3",1,"058_16","058_16","NO","00","058","16","Food","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,7
+"351","058","F",33,-9.5851,2,"3",1,"058_18","058_18","NO","00","058","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,7
+"352","058","F",33,-9.5851,2,"3",1,"058_20","058_20","NO","00","058","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,7
+"353","058","F",33,-9.5851,2,"3",1,"058_01","058_01","NO","00","058","01","Addiction","Addiction","Addiction","Addiction","Addiction","1",1,0,1,451,7
+"354","059","F",45,2.4149,3,"3",1,"059_02","059_02","NO","00","059","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,5
+"355","059","F",45,2.4149,3,"3",1,"059_03","059_03","NO","00","059","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",3,1,1,451,5
+"356","059","F",45,2.4149,3,"3",1,"059_16","059_16","NO","00","059","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,5
+"357","059","F",45,2.4149,3,"3",1,"059_20","059_20","NO","00","059","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,5
+"358","059","F",45,2.4149,3,"3",1,"059_01","059_01","NO","00","059","01","Addiction","Addiction","Addiction","Addiction","Addiction","1",4,1,1,451,5
+"366","061","F",42,-0.5851,4,"3",1,"061_02","061_02","NO","00","061","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,6
+"367","061","F",42,-0.5851,4,"3",1,"061_04","061_04","NO","00","061","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",2,0,1,451,6
+"368","061","F",42,-0.5851,4,"3",1,"061_16","061_16","NO","00","061","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,6
+"369","061","F",42,-0.5851,4,"3",1,"061_18","061_18","NO","00","061","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,6
+"370","061","F",42,-0.5851,4,"3",1,"061_19","061_19","NO","00","061","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,6
+"371","061","F",42,-0.5851,4,"3",1,"061_20","061_20","NO","00","061","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,6
+"372","061","F",42,-0.5851,4,"3",1,"061_01-A","01-A","YES","01-A","01-A","01-A","Addiction","Addiction","Addiction","Addiction","Addiction","1",2,0,10,10,10
+"373","062","M",43,0.4149,3,"2",1,"062_02","062_02","NO","00","062","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,8
+"374","062","M",43,0.4149,3,"2",1,"062_03","062_03","NO","00","062","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",1,0,1,451,8
+"375","062","M",43,0.4149,3,"2",1,"062_04","062_04","NO","00","062","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",2,0,1,451,8
+"376","062","M",43,0.4149,3,"2",1,"062_16","062_16","NO","00","062","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,8
+"377","062","M",43,0.4149,3,"2",1,"062_17","062_17","NO","00","062","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,8
+"378","062","M",43,0.4149,3,"2",1,"062_18","062_18","NO","00","062","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,8
+"379","062","M",43,0.4149,3,"2",1,"062_19","062_19","NO","00","062","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,8
+"380","062","M",43,0.4149,3,"2",1,"062_20","062_20","NO","00","062","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,8
+"381","062","M",43,0.4149,3,"2",1,"062_01-A","01-A","YES","01-A","01-A","01-A","Addiction","Addiction","Addiction","Addiction","Addiction","1",2,0,10,10,10
+"389","064","M",26,-16.5851,4,"3",2,"064_02","064_02","NO","00","064","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",4,1,1,451,10
+"390","064","M",26,-16.5851,4,"3",2,"064_03","064_03","NO","00","064","03","GP Health","Other Services","Other Services","Other Services","GP Health","2",3,1,1,451,10
+"391","064","M",26,-16.5851,4,"3",2,"064_04","064_04","NO","00","064","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","2",1,0,1,451,10
+"392","064","M",26,-16.5851,4,"3",2,"064_08","064_08","NO","00","064","08","Supplier","Other Services","Supplier","Supplier","Supplier","2",2,0,1,451,10
+"393","064","M",26,-16.5851,4,"3",2,"064_09","064_09","NO","00","064","09","Supplier","Other Services","Supplier","Supplier","Supplier","2",2,0,1,451,10
+"394","064","M",26,-16.5851,4,"3",2,"064_16","064_16","NO","00","064","16","Food","Other Services","Other Services","Other Services","Other Services","2",2,0,1,451,10
+"395","064","M",26,-16.5851,4,"3",2,"064_17","064_17","NO","00","064","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",4,1,1,451,10
+"396","064","M",26,-16.5851,4,"3",2,"064_18","064_18","NO","00","064","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",4,1,1,451,10
+"397","064","M",26,-16.5851,4,"3",2,"064_19","064_19","NO","00","064","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",3,1,1,451,10
+"398","064","M",26,-16.5851,4,"3",2,"064_20","064_20","NO","00","064","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",2,0,1,451,10
+"399","064","M",26,-16.5851,4,"3",2,"064_01-B","01-B","YES","01-B","01-B","01-B","Addiction","Addiction","Addiction","Addiction","Addiction","2",2,0,5,5,5
+"421","069","F",34,-8.5851,3,"2",3,"069_02","069_02","NO","00","069","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",1,0,1,451,9
+"422","069","F",34,-8.5851,3,"2",3,"069_04","069_04","NO","00","069","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",1,0,1,451,9
+"423","069","F",34,-8.5851,3,"2",3,"069_11","069_11","NO","00","069","11","Supplier","Other Services","Supplier","Supplier","Supplier","1",2,0,1,451,9
+"424","069","F",34,-8.5851,3,"2",3,"069_16","069_16","NO","00","069","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,9
+"425","069","F",34,-8.5851,3,"2",3,"069_17","069_17","NO","00","069","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,9
+"426","069","F",34,-8.5851,3,"2",3,"069_18","069_18","NO","00","069","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,9
+"427","069","F",34,-8.5851,3,"2",3,"069_19","069_19","NO","00","069","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,9
+"428","069","F",34,-8.5851,3,"2",3,"069_20","069_20","NO","00","069","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,9
+"429","069","F",34,-8.5851,3,"2",3,"069_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",1,0,11,11,11
+"430","069","F",34,-8.5851,3,"2",3,"069_06","069_06","NO","00","069","06","Social Work","Social Work","Social Work","Social Work","Social Work","1",1,0,1,451,9
+"431","070","F",34,-8.5851,2,"3",3,"070_03","070_03","NO","00","070","03","GP Health","Other Services","Other Services","Other Services","GP Health","1",5,1,1,451,8
+"432","070","F",34,-8.5851,2,"3",3,"070_04-A","04-A","YES","04-A","04-A","04-A","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",2,0,9,9,9
+"433","070","F",34,-8.5851,2,"3",3,"070_08","070_08","NO","00","070","08","Supplier","Other Services","Supplier","Supplier","Supplier","1",5,1,1,451,8
+"434","070","F",34,-8.5851,2,"3",3,"070_16","070_16","NO","00","070","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,8
+"435","070","F",34,-8.5851,2,"3",3,"070_17","070_17","NO","00","070","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,8
+"436","070","F",34,-8.5851,2,"3",3,"070_18","070_18","NO","00","070","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,8
+"437","070","F",34,-8.5851,2,"3",3,"070_19","070_19","NO","00","070","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,8
+"438","070","F",34,-8.5851,2,"3",3,"070_20","070_20","NO","00","070","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",2,0,1,451,8
+"439","070","F",34,-8.5851,2,"3",3,"070_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",4,1,11,11,11
+"440","070","F",34,-8.5851,2,"3",3,"070_21-B","21-B","YES","21-B","21-B","21-B","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","1",3,1,7,7,7
+"441","070","F",34,-8.5851,2,"3",3,"070_06","070_06","NO","00","070","06","Social Work","Social Work","Social Work","Social Work","Social Work","1",5,1,1,451,8
+"442","071","M",42,-0.5851,4,"2",3,"071_02","071_02","NO","00","071","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,10
+"443","071","M",42,-0.5851,4,"2",3,"071_05","071_05","NO","00","071","05","IEP","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,10
+"444","071","M",42,-0.5851,4,"2",3,"071_10","071_10","NO","00","071","10","Supplier","Other Services","Supplier","Supplier","Supplier","1",2,0,1,451,10
+"445","071","M",42,-0.5851,4,"2",3,"071_11","071_11","NO","00","071","11","Supplier","Other Services","Supplier","Supplier","Supplier","1",3,1,1,451,10
+"446","071","M",42,-0.5851,4,"2",3,"071_16","071_16","NO","00","071","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,10
+"447","071","M",42,-0.5851,4,"2",3,"071_17","071_17","NO","00","071","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,10
+"448","071","M",42,-0.5851,4,"2",3,"071_18","071_18","NO","00","071","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,10
+"449","071","M",42,-0.5851,4,"2",3,"071_19","071_19","NO","00","071","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",2,0,1,451,10
+"450","071","M",42,-0.5851,4,"2",3,"071_20","071_20","NO","00","071","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,10
+"451","071","M",42,-0.5851,4,"2",3,"071_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",1,0,11,11,11
+"452","071","M",42,-0.5851,4,"2",3,"071_21","071_21","NO","00","071","21","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","1",4,1,1,451,10
+"453","072","F",39,-3.5851,5,"4",3,"072_02","072_02","NO","00","072","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,6
+"454","072","F",39,-3.5851,5,"4",3,"072_09","072_09","NO","00","072","09","Supplier","Other Services","Supplier","Supplier","Supplier","1",4,1,1,451,6
+"455","072","F",39,-3.5851,5,"4",3,"072_16","072_16","NO","00","072","16","Food","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,6
+"456","072","F",39,-3.5851,5,"4",3,"072_18","072_18","NO","00","072","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,6
+"457","072","F",39,-3.5851,5,"4",3,"072_19","072_19","NO","00","072","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,6
+"458","072","F",39,-3.5851,5,"4",3,"072_20","072_20","NO","00","072","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,6
+"459","072","F",39,-3.5851,5,"4",3,"072_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",5,1,11,11,11
+"464","074","M",38,-4.5851,2,"2",3,"074_02","074_02","NO","00","074","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,8
+"465","074","M",38,-4.5851,2,"2",3,"074_04","074_04","NO","00","074","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",3,1,1,451,8
+"466","074","M",38,-4.5851,2,"2",3,"074_09","074_09","NO","00","074","09","Supplier","Other Services","Supplier","Supplier","Supplier","1",2,0,1,451,8
+"467","074","M",38,-4.5851,2,"2",3,"074_16","074_16","NO","00","074","16","Food","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,8
+"468","074","M",38,-4.5851,2,"2",3,"074_17","074_17","NO","00","074","17","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",4,1,1,451,8
+"469","074","M",38,-4.5851,2,"2",3,"074_18","074_18","NO","00","074","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,8
+"470","074","M",38,-4.5851,2,"2",3,"074_19","074_19","NO","00","074","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","1",3,1,1,451,8
+"471","074","M",38,-4.5851,2,"2",3,"074_20","074_20","NO","00","074","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",3,1,1,451,8
+"472","074","M",38,-4.5851,2,"2",3,"074_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",3,1,11,11,11
+"473","074","M",38,-4.5851,2,"2",3,"074_01-C","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","1",4,1,14,14,14
+"474","075","M",46,3.4149,5,"4",3,"075_02","075_02","NO","00","075","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","1",5,1,1,451,4
+"475","075","M",46,3.4149,5,"4",3,"075_04","075_04","NO","00","075","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","1",5,1,1,451,4
+"476","075","M",46,3.4149,5,"4",3,"075_16","075_16","NO","00","075","16","Food","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,4
+"477","075","M",46,3.4149,5,"4",3,"075_20","075_20","NO","00","075","20","Exercise","Other Services","Other Services","Other Services","Other Services","1",4,1,1,451,4
+"478","075","M",46,3.4149,5,"4",3,"075_01-D","01-D","YES","01-D","01-D","01-D","Addiction","Addiction","Addiction","Addiction","Addiction","1",4,1,11,11,11
+"479","075","M",46,3.4149,5,"4",3,"075_01-C","01-C","YES","01-C","01-C","01-C","Addiction","Addiction","Addiction","Addiction","Addiction","1",1,0,14,14,14
+"480","076","F",38,-4.5851,4,"2",4,"076_02","076_02","NO","00","076","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",5,1,1,451,5
+"481","076","F",38,-4.5851,4,"2",4,"076_03","076_03","NO","00","076","03","GP Health","Other Services","Other Services","Other Services","GP Health","2",1,0,1,451,5
+"482","076","F",38,-4.5851,4,"2",4,"076_11","076_11","NO","00","076","11","Supplier","Other Services","Supplier","Supplier","Supplier","2",3,1,1,451,5
+"483","076","F",38,-4.5851,4,"2",4,"076_16","076_16","NO","00","076","16","Food","Other Services","Other Services","Other Services","Other Services","2",2,0,1,451,5
+"484","076","F",38,-4.5851,4,"2",4,"076_20","076_20","NO","00","076","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",1,0,1,451,5
+"485","076","F",38,-4.5851,4,"2",4,"076_01-F","01-F","YES","01-F","01-F","01-F","Addiction","Addiction","Addiction","Addiction","Addiction","2",1,0,1,1,1
+"486","077","M",53,10.4149,2,"3",4,"077_02","077_02","NO","00","077","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,4
+"487","077","M",53,10.4149,2,"3",4,"077_09","077_09","NO","00","077","09","Supplier","Other Services","Supplier","Supplier","Supplier","2",2,0,1,451,4
+"488","077","M",53,10.4149,2,"3",4,"077_16","077_16","NO","00","077","16","Food","Other Services","Other Services","Other Services","Other Services","2",2,0,1,451,4
+"489","077","M",53,10.4149,2,"3",4,"077_18","077_18","NO","00","077","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",2,0,1,451,4
+"490","077","M",53,10.4149,2,"3",4,"077_01-I","01-I","YES","01-I","01-I","01-I","Addiction","Addiction","Addiction","Addiction","Addiction","2",1,0,4,4,4
+"491","078","F",45,2.4149,2,"2",4,"078_02","078_02","NO","00","078","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",4,1,1,451,4
+"492","078","F",45,2.4149,2,"2",4,"078_16","078_16","NO","00","078","16","Food","Other Services","Other Services","Other Services","Other Services","2",1,0,1,451,4
+"493","078","F",45,2.4149,2,"2",4,"078_19","078_19","NO","00","078","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",1,0,1,451,4
+"494","078","F",45,2.4149,2,"2",4,"078_20","078_20","NO","00","078","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",1,0,1,451,4
+"495","078","F",45,2.4149,2,"2",4,"078_01-I","01-I","YES","01-I","01-I","01-I","Addiction","Addiction","Addiction","Addiction","Addiction","2",4,1,4,4,4
+"496","079","M",39,-3.5851,4,"2",4,"079_02","079_02","NO","00","079","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",5,1,1,451,6
+"497","079","M",39,-3.5851,4,"2",4,"079_03","079_03","NO","00","079","03","GP Health","Other Services","Other Services","Other Services","GP Health","2",2,0,1,451,6
+"498","079","M",39,-3.5851,4,"2",4,"079_04","079_04","NO","00","079","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","2",1,0,1,451,6
+"499","079","M",39,-3.5851,4,"2",4,"079_16","079_16","NO","00","079","16","Food","Other Services","Other Services","Other Services","Other Services","2",5,1,1,451,6
+"500","079","M",39,-3.5851,4,"2",4,"079_18","079_18","NO","00","079","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",3,1,1,451,6
+"501","079","M",39,-3.5851,4,"2",4,"079_19","079_19","NO","00","079","19","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",3,1,1,451,6
+"502","079","M",39,-3.5851,4,"2",4,"079_01-I","01-I","YES","01-I","01-I","01-I","Addiction","Addiction","Addiction","Addiction","Addiction","2",3,1,4,4,4
+"508","081","M",41,-1.5851,2,"2",4,"081_09","081_09","NO","00","081","09","Supplier","Other Services","Supplier","Supplier","Supplier","2",4,1,1,451,6
+"509","081","M",41,-1.5851,2,"2",4,"081_16","081_16","NO","00","081","16","Food","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,6
+"510","081","M",41,-1.5851,2,"2",4,"081_18","081_18","NO","00","081","18","Family/Friends","Other Services","Other Services","Family/Friends","Family/Friends","2",2,0,1,451,6
+"511","081","M",41,-1.5851,2,"2",4,"081_20","081_20","NO","00","081","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,6
+"512","081","M",41,-1.5851,2,"2",4,"081_01","081_01","NO","00","081","01","Addiction","Addiction","Addiction","Addiction","Addiction","2",3,1,1,451,6
+"513","081","M",41,-1.5851,2,"2",4,"081_21","081_21","NO","00","081","21","Peer Support","Peer Support","Peer Support","Peer Support","Peer Support","2",2,0,1,451,6
+"514","084","M",37,-5.5851,3,"2",4,"084_02","084_02","NO","00","084","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",2,0,1,451,2
+"515","084","M",37,-5.5851,3,"2",4,"084_05","084_05","NO","00","084","05","IEP","Other Services","Other Services","Other Services","Other Services","2",2,0,1,451,2
+"516","084","M",37,-5.5851,3,"2",4,"084_01-G","01-G","YES","01-G","01-G","01-G","Addiction","Addiction","Addiction","Addiction","Addiction","2",2,0,1,1,1
+"517","085","F",31,-11.5851,2,"1",4,"085_02","085_02","NO","00","085","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,5
+"518","085","F",31,-11.5851,2,"1",4,"085_03","085_03","NO","00","085","03","GP Health","Other Services","Other Services","Other Services","GP Health","2",2,0,1,451,5
+"519","085","F",31,-11.5851,2,"1",4,"085_04","085_04","NO","00","085","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","2",1,0,1,451,5
+"520","085","F",31,-11.5851,2,"1",4,"085_05","085_05","NO","00","085","05","IEP","Other Services","Other Services","Other Services","Other Services","2",5,1,1,451,5
+"521","085","F",31,-11.5851,2,"1",4,"085_20","085_20","NO","00","085","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",1,0,1,451,5
+"522","085","F",31,-11.5851,2,"1",4,"085_01-H","01-H","NO","01-H","01-H","01-H","Addiction","Addiction","Addiction","Addiction","Addiction","2",1,0,1,1,1
+"523","087","F",41,-1.5851,2,"2",4,"087_02","087_02","NO","00","087","02","Pharmacy","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,4
+"524","087","F",41,-1.5851,2,"2",4,"087_03","087_03","NO","00","087","03","GP Health","Other Services","Other Services","Other Services","GP Health","2",1,0,1,451,4
+"525","087","F",41,-1.5851,2,"2",4,"087_04","087_04","NO","00","087","04","Mental Health","Other Services","Other Services","Other Services","Mental Health","2",2,0,1,451,4
+"526","087","F",41,-1.5851,2,"2",4,"087_20","087_20","NO","00","087","20","Exercise","Other Services","Other Services","Other Services","Other Services","2",3,1,1,451,4
+"527","087","F",41,-1.5851,2,"2",4,"087_01-I","01-I","YES","01-I","01-I","01-I","Addiction","Addiction","Addiction","Addiction","Addiction","2",2,0,4,4,4

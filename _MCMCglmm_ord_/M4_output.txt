@@ -1,0 +1,49 @@
+
+ Iterations = 1001:109901
+ Thinning interval  = 100
+ Sample size  = 1090 
+
+ DIC: 971.349 
+
+ G-structure:  ~EGO_ID
+
+       post.mean l-95% CI u-95% CI eff.samp
+EGO_ID    0.4739   0.1478   0.8931    826.4
+
+               ~ALTER_ID_1
+
+           post.mean  l-95% CI u-95% CI eff.samp
+ALTER_ID_1    0.0513 0.0002285    0.243    172.5
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: TIE_RATING_15 ~ 1 + EGO_AREA_ID + ALTER_TYPE_X + ALTER_ADDICTION_STATUS 
+
+                           post.mean  l-95% CI  u-95% CI eff.samp   pMCMC    
+(Intercept)                 2.154588  1.278610  3.221866    911.6 < 9e-04 ***
+EGO_AREA_IDArea 2           0.012724 -0.840148  1.082198   1090.0 0.96330    
+EGO_AREA_IDArea 3           1.172654  0.429034  1.912269    947.2 0.00183 ** 
+EGO_AREA_IDArea 4          -0.106472 -1.228120  0.951450    649.5 0.85505    
+EGO_AREA_IDArea 5           1.019991  0.212867  1.872534   1090.0 0.02202 *  
+ALTER_TYPE_XExercise       -0.612458 -1.254268 -0.014491   1090.0 0.04954 *  
+ALTER_TYPE_XFamily/Friends -0.647704 -1.225313 -0.143252    974.4 0.02385 *  
+ALTER_TYPE_XFood           -0.536749 -1.105145  0.124542    995.4 0.08807 .  
+ALTER_TYPE_XGP Health      -0.744940 -1.474673  0.082780   1090.0 0.07156 .  
+ALTER_TYPE_XIEP             0.696592 -0.733659  2.264252    939.8 0.33578    
+ALTER_TYPE_XMental Health  -0.799372 -1.480774 -0.001816   1090.0 0.03303 *  
+ALTER_TYPE_XPeer Support    0.831008 -0.116925  1.689818   1548.4 0.09358 .  
+ALTER_TYPE_XPharmacy        1.289659  0.604447  1.879698   1090.0 < 9e-04 ***
+ALTER_TYPE_XSocial Work    -0.277150 -1.606375  0.855532   1090.0 0.67706    
+ALTER_TYPE_XSupplier       -0.015529 -0.813147  0.815706   1090.0 0.97982    
+ALTER_ADDICTION_STATUS     -0.410259 -1.081864  0.183247    857.7 0.18899    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Cutpoints: 
+                              post.mean l-95% CI u-95% CI eff.samp
+cutpoint.traitTIE_RATING_15.1     1.516    1.249    1.804    612.0
+cutpoint.traitTIE_RATING_15.2     2.939    2.572    3.298    487.9
+cutpoint.traitTIE_RATING_15.3     4.178    3.757    4.628    505.3

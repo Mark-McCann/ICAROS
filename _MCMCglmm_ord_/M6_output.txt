@@ -1,0 +1,51 @@
+
+ Iterations = 1001:109901
+ Thinning interval  = 100
+ Sample size  = 1090 
+
+ DIC: 967.247 
+
+ G-structure:  ~EGO_ID
+
+       post.mean l-95% CI u-95% CI eff.samp
+EGO_ID    0.3234  0.02842   0.6394    902.7
+
+               ~ALTER_ID_1
+
+           post.mean  l-95% CI u-95% CI eff.samp
+ALTER_ID_1   0.06657 0.0003016   0.2991    117.9
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: TIE_RATING_15 ~ 1 + EGO_AREA_ID + EGO_GENDER + EGO_PHYSICAL_HEALTH + ALTER_TYPE_X + ALTER_ADDICTION_STATUS 
+
+                            post.mean   l-95% CI   u-95% CI eff.samp   pMCMC    
+(Intercept)                 9.423e-01 -9.246e-02  2.134e+00   1090.0 0.08440 .  
+EGO_AREA_IDArea 2           2.353e-01 -6.541e-01  1.124e+00   1090.0 0.59633    
+EGO_AREA_IDArea 3           1.079e+00  4.399e-01  1.751e+00    993.0 0.00183 ** 
+EGO_AREA_IDArea 4          -8.644e-02 -1.108e+00  8.754e-01   1090.0 0.86606    
+EGO_AREA_IDArea 5           9.712e-01  1.658e-01  1.710e+00   1090.0 0.01468 *  
+EGO_GENDERM                 1.214e-05 -4.504e-01  4.580e-01    899.2 0.97982    
+EGO_PHYSICAL_HEALTH         4.239e-01  1.996e-01  6.633e-01    946.0 0.00183 ** 
+ALTER_TYPE_XExercise       -6.433e-01 -1.224e+00  4.507e-02    675.6 0.06055 .  
+ALTER_TYPE_XFamily/Friends -6.523e-01 -1.218e+00 -8.546e-02    957.7 0.01651 *  
+ALTER_TYPE_XFood           -5.506e-01 -1.134e+00  9.241e-02    806.6 0.08807 .  
+ALTER_TYPE_XGP Health      -6.782e-01 -1.430e+00  1.233e-01   1090.0 0.07890 .  
+ALTER_TYPE_XIEP             7.191e-01 -7.894e-01  2.042e+00   1090.0 0.30459    
+ALTER_TYPE_XMental Health  -7.982e-01 -1.504e+00 -2.558e-02    498.7 0.02385 *  
+ALTER_TYPE_XPeer Support    8.439e-01  8.986e-03  1.906e+00   1090.0 0.07339 .  
+ALTER_TYPE_XPharmacy        1.288e+00  7.082e-01  1.915e+00   1090.0 < 9e-04 ***
+ALTER_TYPE_XSocial Work    -1.990e-01 -1.386e+00  1.026e+00   1090.0 0.76514    
+ALTER_TYPE_XSupplier       -5.457e-02 -8.102e-01  8.926e-01   1090.0 0.89174    
+ALTER_ADDICTION_STATUS     -3.607e-01 -9.540e-01  1.678e-01   1090.0 0.21101    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Cutpoints: 
+                              post.mean l-95% CI u-95% CI eff.samp
+cutpoint.traitTIE_RATING_15.1     1.523    1.260    1.796    582.4
+cutpoint.traitTIE_RATING_15.2     2.963    2.634    3.355    416.9
+cutpoint.traitTIE_RATING_15.3     4.228    3.788    4.708    215.6

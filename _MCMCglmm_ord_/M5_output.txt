@@ -1,0 +1,50 @@
+
+ Iterations = 1001:109901
+ Thinning interval  = 100
+ Sample size  = 1090 
+
+ DIC: 947.8242 
+
+ G-structure:  ~EGO_ID
+
+       post.mean l-95% CI u-95% CI eff.samp
+EGO_ID    0.4873   0.1634   0.8593    919.5
+
+               ~ALTER_ID_1
+
+           post.mean  l-95% CI u-95% CI eff.samp
+ALTER_ID_1     0.049 0.0002651   0.2111    165.2
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: TIE_RATING_15 ~ 1 + EGO_AREA_ID + EGO_GENDER + ALTER_TYPE_X + ALTER_ADDICTION_STATUS 
+
+                           post.mean  l-95% CI  u-95% CI eff.samp  pMCMC    
+(Intercept)                 2.191554  1.283194  3.244465    937.0 <9e-04 ***
+EGO_AREA_IDArea 2           0.072029 -0.903498  1.092139   1090.0 0.8716    
+EGO_AREA_IDArea 3           1.192851  0.389265  1.965989   1090.0 <9e-04 ***
+EGO_AREA_IDArea 4          -0.122305 -1.194468  1.030805   1227.3 0.8385    
+EGO_AREA_IDArea 5           1.032178  0.178214  1.869164   1090.0 0.0239 *  
+EGO_GENDERM                -0.106521 -0.566831  0.439381   1206.8 0.6642    
+ALTER_TYPE_XExercise       -0.602420 -1.249927  0.010268    791.0 0.0624 .  
+ALTER_TYPE_XFamily/Friends -0.644417 -1.217224 -0.131222    781.6 0.0220 *  
+ALTER_TYPE_XFood           -0.538980 -1.099296  0.100936    846.3 0.0917 .  
+ALTER_TYPE_XGP Health      -0.741156 -1.542364 -0.038032   1208.8 0.0587 .  
+ALTER_TYPE_XIEP             0.716567 -0.690733  2.333374   1090.0 0.3339    
+ALTER_TYPE_XMental Health  -0.814291 -1.549384 -0.065065    822.8 0.0349 *  
+ALTER_TYPE_XPeer Support    0.805006 -0.188969  1.711928   1090.0 0.0972 .  
+ALTER_TYPE_XPharmacy        1.306838  0.706379  1.959074   1090.0 <9e-04 ***
+ALTER_TYPE_XSocial Work    -0.279755 -1.644484  0.883591   1090.0 0.6734    
+ALTER_TYPE_XSupplier        0.006506 -0.807986  0.788319   1090.0 0.9963    
+ALTER_ADDICTION_STATUS     -0.399612 -1.041191  0.266725   1090.0 0.2422    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Cutpoints: 
+                              post.mean l-95% CI u-95% CI eff.samp
+cutpoint.traitTIE_RATING_15.1     1.514    1.223    1.818    713.6
+cutpoint.traitTIE_RATING_15.2     2.944    2.559    3.304    637.2
+cutpoint.traitTIE_RATING_15.3     4.188    3.728    4.645    582.0

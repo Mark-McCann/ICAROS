@@ -1,0 +1,34 @@
+
+ Iterations = 1001:109901
+ Thinning interval  = 100
+ Sample size  = 1090 
+
+ DIC: 1015.214 
+
+ G-structure:  ~EGO_ID
+
+       post.mean l-95% CI u-95% CI eff.samp
+EGO_ID    0.5036    0.167    0.857    924.8
+
+               ~ALTER_ID_1
+
+           post.mean  l-95% CI u-95% CI eff.samp
+ALTER_ID_1   0.05519 0.0003699   0.2075    225.6
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: TIE_RATING_15 ~ 1 
+
+            post.mean l-95% CI u-95% CI eff.samp  pMCMC    
+(Intercept)     1.851    1.499    2.144    756.2 <9e-04 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Cutpoints: 
+                              post.mean l-95% CI u-95% CI eff.samp
+cutpoint.traitTIE_RATING_15.1     1.397    1.123    1.624    633.4
+cutpoint.traitTIE_RATING_15.2     2.652    2.345    2.976    461.2
+cutpoint.traitTIE_RATING_15.3     3.730    3.341    4.110    478.3
