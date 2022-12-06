@@ -11,7 +11,6 @@ cat("\014")
 ### LOADING LIBRARIES ###
 library(readxl)
 library(tidygraph)
-library(ggraph)
 library(graphlayouts)
 library(qgraph)
 library(dplyr)  
@@ -20,7 +19,8 @@ library(scales)
 library(gtools)
 library(ggforce)
 library(igraph)
- 
+library(ggraph)
+
 ### SETTING COLOR PALETTE ###
 library(RColorBrewer)
 # display.brewer.all(n = NULL, type = "all", select = NULL, exact.n = TRUE, colorblindFriendly = FALSE)
@@ -192,9 +192,12 @@ ICAROS_fig1 <-
         legend.box = "vertical", legend.box.just = "right",
         legend.text = element_text(size = 16)) +
   guides(fill = guide_legend(override.aes = list(size = 3), order = 1),
-         change = guide_legend(order = 2)) +
+         change = guide_legend(order = 2))
 
+  
+  
 print(ICAROS_fig1)
 setwd("C:/Users/mmc78h/Documents/GitHub/ICAROS/Outputs")
 ggsave(filename = "ICAROS figure 1 two missing gender set to men.jpeg", plot = ICAROS_fig1, width = 10 ,height = 10)
 
+ggsave(filename = "ICAROS figure C1.jpeg", plot = ICAROS_fig1, width = 10 ,height = 10)

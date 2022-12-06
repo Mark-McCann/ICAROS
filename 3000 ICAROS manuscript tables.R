@@ -414,6 +414,12 @@ png(file = "Caterpillar_Mego_alter.png",
 plotREsim(REsim(Mego_alt.lmer))
 dev.off()
 
+png(file = "Figure 2.png",   
+    width = 600, # The width of the plot in inches
+    height = 330, units = "px") 
+plotREsim(REsim(Mego_alt.lmer))
+dev.off()
+
 
 # change label
 DFc <- DF
@@ -472,5 +478,22 @@ plot_model(M.lmer2, sort.est = T) + scale_x_discrete(labels=rev(c(
                                                     "GP Health",
                                                     "Mental health"
                                                     )))
+dev.off()
+
+png(file = "Figure 3.png",   
+    width = 400, height = 500 , units = "px") # 1 cm ~ 37.7 px
+plot_model(M.lmer2, sort.est = T) + scale_x_discrete(labels=rev(c(
+  "Pharmacy",
+  "Peer support",
+  "IEP",
+  "Addiction",
+  "Supplier",
+  "Social work",
+  "Food",
+  "Family/Friends",
+  "Leisure act.",
+  "GP Health",
+  "Mental health"
+)))
 dev.off()
 
