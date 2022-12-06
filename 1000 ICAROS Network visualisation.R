@@ -32,7 +32,6 @@ setwd(working_dir)
 
 ##Read data 
 DF <- read.csv("ICAROS dataset.csv")
-
 ## EDGE LIST 
 EL <- subset(DF, select =  c(EGO_ID, ALTER_ID_1, TIE_RATING_15))
 

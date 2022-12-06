@@ -1,0 +1,49 @@
+
+ Iterations = 1001:109901
+ Thinning interval  = 100
+ Sample size  = 1090 
+
+ DIC: 1354.086 
+
+ G-structure:  ~EGO_ID
+
+       post.mean l-95% CI u-95% CI eff.samp
+EGO_ID    0.7366   0.3617    1.181    664.1
+
+               ~ALTER_ID_1
+
+           post.mean l-95% CI u-95% CI eff.samp
+ALTER_ID_1   0.07944  0.00018   0.3212    100.6
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: TIE_RATING_15 ~ 1 + EGO_AREA_ID + ALTER_TYPE_X + ALTER_ID_1_DEGREE 
+
+                           post.mean l-95% CI u-95% CI eff.samp   pMCMC   
+(Intercept)                  1.54680  0.77983  2.41023    564.8 0.00183 **
+EGO_AREA_IDArea 2            0.60186 -0.10501  1.37557   1365.7 0.12110   
+EGO_AREA_IDArea 3            1.18237  0.56760  1.82169   1090.0 0.00183 **
+EGO_AREA_IDArea 4           -0.20735 -1.17712  0.65727   1188.4 0.64404   
+EGO_AREA_IDArea 5            0.85348  0.08373  1.64457   1215.7 0.03303 * 
+ALTER_TYPE_XExercise        -0.48124 -1.16063  0.21235   1247.0 0.19266   
+ALTER_TYPE_XFamily/Friends  -0.53903 -1.16279  0.19281   1090.0 0.11009   
+ALTER_TYPE_XFood            -0.34038 -1.00615  0.33381   1090.0 0.30826   
+ALTER_TYPE_XGP Health       -0.10008 -0.85421  0.67997   1090.0 0.79450   
+ALTER_TYPE_XIEP              0.85497 -0.64304  2.25145    872.7 0.27156   
+ALTER_TYPE_XMental Health   -0.50634 -1.27252  0.20997   1090.0 0.17431   
+ALTER_TYPE_XPeer Support     0.82669 -0.07448  1.66776    831.0 0.07156 . 
+ALTER_TYPE_XPharmacy         1.18548  0.50456  1.90360   1218.6 0.00367 **
+ALTER_TYPE_XSocial Work     -0.08277 -1.11515  1.00064   1090.0 0.92844   
+ALTER_TYPE_XSupplier        -0.21276 -1.02525  0.65395   1263.7 0.60367   
+ALTER_ID_1_DEGREE            0.03373 -0.03944  0.10357   1090.0 0.37615   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Cutpoints: 
+                              post.mean l-95% CI u-95% CI eff.samp
+cutpoint.traitTIE_RATING_15.1     1.624    1.375    1.879    450.3
+cutpoint.traitTIE_RATING_15.2     3.127    2.831    3.476    337.8
+cutpoint.traitTIE_RATING_15.3     4.382    3.946    4.780    235.0
