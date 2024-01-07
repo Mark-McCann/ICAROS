@@ -1,5 +1,5 @@
 # ============================
-# FILE:   03_COVID19_NETWORK.R
+# FILE:   4000 Network visualisation 
 # AUTHOR: FEDERICA BIANCHI
 # DATE:   APRIL 2022
 # ============================

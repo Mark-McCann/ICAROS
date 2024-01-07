@@ -1,5 +1,5 @@
 # ==========================================
-# FILE:   04 Ordinal Logistic Regression models with missing data
+# FILE:   5000 rdinal Logistic Regression models with missing data
 # AUTHOR: FEDERICA BIANCHI 
 # DATE:   JULY 2022
 # Updated Srebrenka Letina October 2022
