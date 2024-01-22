@@ -26,9 +26,30 @@ source("00_FUNCTIONS_MCMCglmm.R")
 
 ##Read data 
 DF <- read.csv("ICAROS dataset with missing.csv")
+dim(DF)
+str(DF$EGO_PHYSICAL_HEALTH)
+table(DF$TIE_RATING_01)
+table(DF$TIE_RATING_15)
+table(DF$EGO_GENDER, useNA = "ifany")
+table(DF$ALTER_ADDICTION_STATUS)
+table(DF$ALTER_ID_1_DEGREE)
+DF$EGO_AREA_ID <- as.character(DF$EGO_AREA_ID)
+DF$EGO_AREA_ID <- factor(DF$EGO_AREA_ID, labels = c("Area 1","Area 2","Area 3","Area 4","Area 5"))
 
-DF$EGO_AREA_ID2 <- factor(DF$EGO_AREA_ID, labels = c("Area 1", "Area 2", "Area 3", "Area 4", "Area 5"))
 
+dim(DF)
+
+## COMPLETE CASES IN DATA
+DF = DF[complete.cases(DF), ]
+dim(DF)
+
+OVERLAPPING_ALTER_TIES = DF %>% 
+  group_by(ALTER_ID_1) %>% 
+  summarize(ALTER_ID_1, N = n()) %>% 
+  filter(N > 1)
+
+sum(OVERLAPPING_ALTER_TIES$N)
+dim(DF)
 
 # ******************************************
 # CROSS-CLASSIFIED MULTIPLE-MEMBERSHIP MODEL
@@ -241,8 +262,6 @@ set.seed(32022) # single chain
 M3_priors = list(R = list(V = 1, fix = 1),
                  G = list(G1 = list(V = 1, nu = 0.002), G2 = list(V = 1, nu = 0.002)))
 
-DF$EGO_AREA_ID <- as.character(DF$EGO_AREA_ID)
-DF$EGO_AREA_ID <- factor(DF$EGO_AREA_ID, labels = c("Area 1","Area 2","Area 3","Area 4","Area 5"))
 
 
 ## MODEL ESTIMATION
@@ -299,6 +318,7 @@ thin = 100     # 100
 burnin = 1000  # 5000
 set.seed(32022) # single chain
 
+
 ## PRIORS
 M4_priors = list(R = list(V = 1, fix = 1),
                  G = list(G1 = list(V = 1, nu = 0.002), G2 = list(V = 1, nu = 0.002)))
@@ -306,7 +326,7 @@ M4_priors = list(R = list(V = 1, fix = 1),
 ## MODEL ESTIMATION
 M4 = MCMCglmm(TIE_RATING_15 ~ 1 + 
                 EGO_AREA_ID + 
-                ALTER_TYPE_X,
+                ALTER_TYPE_X + ALTER_ADDICTION_STATUS,
               random = ~ EGO_ID + ALTER_ID_1,  
               family = "ordinal", 
               data = DF, 
@@ -373,7 +393,7 @@ M5_priors = list(R = list(V = 1, fix = 1),
 ## MODEL ESTIMATION
 M5 = MCMCglmm(TIE_RATING_15 ~ 1 + 
                 EGO_AREA_ID + EGO_GENDER + 
-                ALTER_TYPE_X, 
+                ALTER_TYPE_X + ALTER_ADDICTION_STATUS, 
               random = ~ EGO_ID + ALTER_ID_1,  
               family = "ordinal", 
               data = DF, 
@@ -423,8 +443,8 @@ M6_priors = list(R = list(V = 1, fix = 1),
 
 ## MODEL ESTIMATION
 M6 = MCMCglmm(TIE_RATING_15 ~ 1 + 
-                EGO_AREA_ID +
-                ALTER_TYPE_X, 
+                EGO_AREA_ID + EGO_GENDER + EGO_PHYSICAL_HEALTH +
+                ALTER_TYPE_X + ALTER_ADDICTION_STATUS , 
               random = ~ EGO_ID + ALTER_ID_1,  
               family = "ordinal", 
               data = DF,
@@ -472,10 +492,10 @@ set.seed(32022)
 M7_priors = list(R = list(V = 1, fix = 1),
                  G = list(G1 = list(V = 1, nu = 0.002), G2 = list(V = 1, nu = 0.002)))
 
-## MODEL ESTIMATION
+## MODEL ESTIMATION 
 M7 = MCMCglmm(TIE_RATING_15 ~ 1 + 
-                EGO_AREA_ID  +
-                ALTER_TYPE_X + ALTER_ID_1_DEGREE, 
+                EGO_AREA_ID + EGO_GENDER + EGO_PHYSICAL_HEALTH +
+                ALTER_TYPE_X + ALTER_ADDICTION_STATUS + ALTER_ID_1_DEGREE, 
               random = ~ EGO_ID + ALTER_ID_1,  
               family = "ordinal", 
               data = DF,
@@ -494,6 +514,15 @@ autocorr(M7$Sol)
 
 #plot(mcmc.list(M7$VCV))
 # autocorr(M7$VCV)
+# #M0: Baseline Single Level Model:
+M0$DIC
+
+#M1: Cross classified ML model alters/egos:
+M1$DIC
+
+#M2: Cross classified ML model alters/egos with overlap covariate:
+M2$DIC
+
 
 ## EXPORT OUTPUT 
 pdf(file = "_MCMCglmm_ord_missing_/M7_Sol.pdf", width = 5, height = 8)

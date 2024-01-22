@@ -41,13 +41,26 @@ table(DF$TIE_RATING_15B, DF$TIE_RATING_15)
 
 model1 = MASS::polr(
   TIE_RATING_15B ~ 1 + EGO_AREA_ID + EGO_GENDER + EGO_PHYSICAL_HEALTH +
-    ALTER_TYPE_X  + ALTER_ADDICTION_STATUS + ALTER_ID_1_DEGREE,
+    ALTER_TYPE_X + + ALTER_ADDICTION_STATUS + ALTER_ID_1_DEGREE,
   data = DF,
   Hess = TRUE
 )
 summary(model1)
 brant(model1) 
 
+sink(file = "Outputs/M7_brant.txt")
+brant(model1) 
+sink(file = NULL)
+
+brantmodel <- brant(model1)
+brantmodel <- as.data.frame(brantmodel)
+brantmodel <- round(brantmodel, 3)
+write.xlsx(brantmodel, "brantmodel 7.xlsx", rowNames = T)
+# H0: Parallel Regression Assumption holds
+# Warning message:
+#   In brant(model1) :
+#   351 combinations in table(dv,ivs) do not occur. Because of that, 
+#   the test results might be invalid.
 
 model1 = MASS::polr(
   TIE_RATING_15B ~ 1 + EGO_AREA_ID ,
@@ -98,4 +111,7 @@ model1 = MASS::polr(
   Hess = TRUE
 )
 summary(model1)
+
 brant(model1) 
+models
+

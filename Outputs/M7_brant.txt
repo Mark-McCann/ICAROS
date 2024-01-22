@@ -1,0 +1,25 @@
+------------------------------------------------------------ 
+Test for			X2	df	probability 
+------------------------------------------------------------ 
+Omnibus				472.82	54	0
+EGO_AREA_IDArea 2		1.9	3	0.59
+EGO_AREA_IDArea 3		3.51	3	0.32
+EGO_AREA_IDArea 4		0.06	3	1
+EGO_AREA_IDArea 5		0.64	3	0.89
+EGO_GENDERM			0.89	3	0.83
+EGO_PHYSICAL_HEALTH		4.04	3	0.26
+ALTER_TYPE_XExercise		8.42	3	0.04
+ALTER_TYPE_XFamily/Friends	9.15	3	0.03
+ALTER_TYPE_XFood		9.56	3	0.02
+ALTER_TYPE_XGP Health		0.46	3	0.93
+ALTER_TYPE_XIEP		5.47	3	0.14
+ALTER_TYPE_XMental Health	7.26	3	0.06
+ALTER_TYPE_XPeer Support	0.42	3	0.94
+ALTER_TYPE_XPharmacy		3.49	3	0.32
+ALTER_TYPE_XSocial Work	13.46	3	0
+ALTER_TYPE_XSupplier		0.74	3	0.86
+ALTER_ADDICTION_STATUS	7.67	3	0.05
+ALTER_ID_1_DEGREE		3.89	3	0.27
+------------------------------------------------------------ 
+
+H0: Parallel Regression Assumption holds

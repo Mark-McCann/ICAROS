@@ -72,7 +72,7 @@ for(i in 1:length(models)){
   perm[[i]] <- df
   
 }
-perm[[3]]
+perm[[5]]
 
 for(i in 1:length(models)){
   # round to TWO digits cols 2-5
@@ -91,13 +91,17 @@ re1 <-Reduce(function(...) merge(..., by="variable", all=T), perm)
 # sort by effect
 re1 <- re1[order(re1$effect_M7),] 
 
+length(re1$variable)
+table(DF$ALTER_ADDICTION_STATUS, DF$ALTER_TYPE_X)
+
 # make better/shorter names of variables
 newVarNames<- c("(Intercept)" , 
+                "Non Government Organisation",
                 "Alter degree",
-                "Social activity",
+                "Leisure activities",
                 "Family Friends",
                 "Food",
-                "General Health",
+                "GP Health",
                 "IEP",
                 "Mental Health",
                 "Peer Support",
@@ -108,22 +112,115 @@ newVarNames<- c("(Intercept)" ,
                 "Area 3", 
                 "Area 4", 
                 "Area 5", 
+                "Ego gender",
+                "Ego physical health",
                 "Alter",
-                "Ego","GenderM")
-
+                "Ego")
+length(newVarNames)
 re1$variable <- newVarNames
+re1
+
+write.xlsx(re1, "Outputs/Model_results_table_ord_reg22012024.xlsx")
 
 
-write.xlsx(re1, "Model_results_table_ord_reg.xlsx")
 
 # MANUALLY (in excel file):
 # delete effect column except the last one (effect_M7)
-# delete suffix for each column except for the first one
-# insert a new first row for M1, to M7 (and merge)
 # change "effect_M7" to "effect" and make it the first column
-# insert "Alter type row"
 
-# DELETE ANY OTHER VARIABLES?
+
+# change to ORs
+tor <-read.xlsx("Outputs/Model_results_table_ord_reg22012024.xlsx")
+str(tor)
+toc <- colnames(tor)[3:23]
+
+tor2 <- tor
+
+for(i in 1:length(toc)){
+  tor2[,toc[i]] <- round(exp(tor2[,toc[i]]),2)
+}
+
+write.xlsx(tor2, "Outputs/Model_results_table_ord_reg_ORs.xlsx")
+
+tor3 <- tor2
+
+
+#tor3 <- as.character(tor3)
+tor3$M1 <- paste(tor2$M_M1, " (",tor2$l_CI_M1, ", ", tor2$u_CI_M1, ")", sep="")
+tor3$M2 <- paste(tor2$M_M2, " (",tor2$l_CI_M2, ", ", tor2$u_CI_M2, ")", sep="")
+tor3$M3 <- paste(tor2$M_M3, " (",tor2$l_CI_M3, ", ", tor2$u_CI_M3, ")", sep="")
+tor3$M4 <- paste(tor2$M_M4, " (",tor2$l_CI_M4, ", ", tor2$u_CI_M4, ")", sep="")
+tor3$M5 <- paste(tor2$M_M5, " (",tor2$l_CI_M5, ", ", tor2$u_CI_M5, ")", sep="")
+tor3$M6 <- paste(tor2$M_M6, " (",tor2$l_CI_M6, ", ", tor2$u_CI_M6, ")", sep="")
+tor3$M7 <- paste(tor2$M_M7, " (",tor2$l_CI_M7, ", ", tor2$u_CI_M7, ")", sep="")
+colnames(tor3)
+
+tab2 <- subset(tor3, select = c(effect, variable, M1, M2, M3, M4, M5, M6, M7))
+tab2[3,3]
+tab2[tab2=="NA (NA, NA)"] <- ""
+
+tab2$variable
+
+tab2[20, 2] <- "Alter level variance"
+tab2[21, 2] <- "Ego level variance"
+tab2[8, 2] <- "Injecting equipment"
+tab2[13, 2] <- "Substance supplier"
+tab2[3, 2] <- "Alter indegree"
+tab2[19, 2] <- "Physical health"
+tab2[18, 2] <- "Gender (Woman)"
+tab2[7 ,2] <- "General health"
+ss <- c(3, 18, 19,8,  9, 10, 11, 12, 13, 14, 15, 16, 17,  4, 5, 6, 7, 20, 21,  2, 1)
+length(ss)
+
+cbind(tab2$variable, ss)
+
+tab2$order<- as.numeric(ss)
+tab3 <- tab2[order(tab2$order),]
+tab3$variable
+tab3$order <- NULL
+DIC <- round(c(M1$DIC, M2$DIC, M3$DIC, M4$DIC, M5$DIC, M6$DIC, M7$DIC),4)
+tab3[22, 2] <- "Deviation Information Criterion"
+for(i in 1:length(DIC)){
+  tab3[22, i+2] <- DIC[i]
+}
+tab3$effect <- NULL
+ego_vpc <- round(c(vpc(vcv = M1$VCV, level = "EGO_ID") %>% mean, vpc(vcv = M2$VCV, level = "EGO_ID") %>% mean,
+                   vpc(vcv = M3$VCV, level = "EGO_ID") %>% mean, vpc(vcv = M4$VCV, level = "EGO_ID") %>% mean,
+                   vpc(vcv = M5$VCV, level = "EGO_ID") %>% mean, vpc(vcv = M6$VCV, level = "EGO_ID") %>% mean,
+                   vpc(vcv = M7$VCV, level = "EGO_ID") %>% mean), 2)
+
+alter_vpc <- round(c(0, vpc(vcv = M2$VCV, level = "ALTER_ID_1") %>% mean,
+                     vpc(vcv = M3$VCV, level = "ALTER_ID_1") %>% mean, vpc(vcv = M4$VCV, level = "ALTER_ID_1") %>% mean,
+                     vpc(vcv = M5$VCV, level = "ALTER_ID_1") %>% mean, vpc(vcv = M6$VCV, level = "ALTER_ID_1") %>% mean,
+                     vpc(vcv = M7$VCV, level = "ALTER_ID_1") %>% mean),2)
+
+tab3[23, 1] <- "Ego VPC"
+tab3[24, 1] <- "Alter VPC"
+for(i in 1:length(ego_vpc)){
+  tab3[23, i+1] <- ego_vpc[i]
+}
+for(i in 1:length(alter_vpc)){
+  tab3[24, i+1] <- alter_vpc[i]
+}
+tab3
+write.xlsx(tab3, "Table 4.xlsx")
+
+
+# MANUALLY (in excel file):
+# change 0 in M1 ego_vpc to ~~
+# add rows Random effects and Fixed effects
+# change row M1, M2, to 1, 2,...
+# add Ego VPC and Alter VPC as two last rows in Random effects
+# add Area 1 and put Reference in cells from M3 to 7
+# below Area put "Alter characteristics", then below add row "Addiction service" and
+# put Reference in cells from M4 to 7
+# below Alter indegree add row Individual chracteristics
+# add 1 row at the end 
+# delete effect column
+# and name of column (variable)
+# put it in word and add the data
+
+
 
 #################################################
 # descriptive tables of ego and alter variables
