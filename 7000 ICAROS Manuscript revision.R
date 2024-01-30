@@ -52,6 +52,47 @@ sink(file = "Outputs/M7_brant.txt")
 brant(model1) 
 sink(file = NULL)
 
+#https://peopleanalytics-regression-book.org/gitbook/multinomial-logistic-regression-for-nominal-category-outcomes.html
+
+##Check multinomial logistic outcomes for the variables suggested by brant test.
+
+library(nnet)
+multinom()
+
+DF$TIE_RATING_15B <- relevel(DF$TIE_RATING_15B, ref = "3")
+
+multi_model <- multinom(
+  formula = TIE_RATING_15B ~ 1 + ALTER_TYPE_X + ALTER_ADDICTION_STATUS + ALTER_ID_1_DEGREE,
+  data = DF,
+  Hess = TRUE
+  
+)
+
+summary(multi_model)
+
+z_stats <- summary(multi_model)$coefficients/
+  summary(multi_model)$standard.errors
+
+# convert to p-values
+p_values <- (1 - pnorm(abs(z_stats)))*2
+
+
+# display p-values in transposed data frame
+data.frame(t(p_values))
+round(data.frame(t(p_values)),2)
+
+odds_ratios <- exp(summary(multi_model)$coefficients)
+data.frame(t(odds_ratios))
+odds_table <- round(data.frame(t(odds_ratios)),2)
+
+odds_table[data.frame(t(p_values)) > 0.05] <- 1.00
+odds_table
+
+
+table(DF$ALTER_TYPE_X,DF$TIE_RATING_15B)
+
+
+
 brantmodel <- brant(model1)
 brantmodel <- as.data.frame(brantmodel)
 brantmodel <- round(brantmodel, 3)
